@@ -1,0 +1,46 @@
+# .NET Build Outputs
+bin/
+obj/
+*.nupkg
+*.snupkg
+*.user
+*.suo
+*.userprefs
+
+# IDE and Editor Files
+.vs/
+*.sln.docstates
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test Results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Secrets and Environment Files - NEVER COMMIT!
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+appsettings.Development.json
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.log
+*.tmp
+*.temp
