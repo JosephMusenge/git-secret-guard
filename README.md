@@ -1,8 +1,12 @@
-# Git-Secret-Guard 🛡️
+# Git-Secret-Guard 
 
-Side project after scrolling too much. I saw [this post on X](https://x.com/ionleu/status/1806296731498889672) and remembered I was just in this position recently. So I created this simple CLI tool to help stop leaking secrets before they become public disasters and memes.
+This is a side project idea that came to mind after scrolling too much 😭. I saw this post on X and remembered I was just in this position recently. So I created this simple CLI tool to help stop leaking secrets before they become public disasters and memes.
 
-![just search OPENAI_API_KEY on github. thank me later.](https://img.shields.io/badge/motivation-that%20one%20tweet-blue)
+<p align="center">
+  <img src="docs/images/X-github-api-meme.png" alt="Tweet: just search OPENAI_API_KEY on github. thank me later." width="500">
+  <br>
+  <em>The tweet that started it all - 1.7M views and mass API key rotations 😅</em>
+</p>
 
 Git-Secret-Guard scans your code for API keys, passwords, and tokens *before* they enter git history. Unlike current scanners like GitLeaks and detect-secrets—which are great, but assume you're a security engineer who already knows what you're doing—Git-Secret-Guard is built for:
 
