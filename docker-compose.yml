@@ -1,0 +1,9 @@
+# Docker Compose for Git-Secret-Guard
+services:
+  scanner:
+    build: .
+    image: git-secret-guard:latest
+    volumes:
+      # mount the current directory to /project inside the container
+      - .:/project:ro  
+    working_dir: /project
