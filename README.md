@@ -5,16 +5,16 @@ This is a side project idea that came to mind after scrolling too much 😭. I s
 <p align="center">
   <img src="docs/images/X-github-api-meme.png" alt="Tweet: just search OPENAI_API_KEY on github. thank me later." width="500">
   <br>
-  <em>The tweet that started it all - 1.7M views and mass API key rotations 😅</em>
+  <em>The tweet that started it all - 1.7M views and mass API key rotations</em>
 </p>
 
-Git-Secret-Guard scans your code for API keys, passwords, and tokens *before* they enter git history. Unlike current scanners like GitLeaks and detect-secrets—which are great, but assume you're a security engineer who already knows what you're doing—Git-Secret-Guard is built for:
+Git-Secret-Guard scans your code for API keys, passwords, and tokens *before* they enter git history. Unlike current scanners like GitLeaks and detect-secrets—which are great, but assume you're a security engineer who already knows what you're doing—this tool is built for:
 
-- 🎓 Those who just learned what an API key is
-- 🚀 Self-taught developers still building security instincts  
-- 💻 Anyone who's ever accidentally committed a `.env` file (we've all been there)
+- Those who just learned what an API key is
+- Self-taught developers still building security instincts  
+- Anyone who's ever accidentally committed a `.env` file (we've all been there)
 
-Of course, seasoned developers can use it too—secrets get leaked by mistake all the time, regardless of experience.
+Of course, seasoned developers can use it too; secrets get leaked by mistake all the time, regardless of experience.
 
 ## How It Works
 
@@ -42,7 +42,7 @@ How to fix:
 4. Use environment variables in your code
 ```
 
-**The secret never enters git history. You don't end up on that GitHub search.**
+**The secret never enters git history. You don't end up on that GitHub search or as part of a meme.**
 
 ## Quick Start
 
@@ -135,12 +135,6 @@ Git-Secret-Guard prevents future leaks. For secrets already in your history, you
 
 **Does this replace GitLeaks?**  
 It can! GitLeaks is great for security teams. This is friendlier for everyone else.
-
-## Tech Stack
-
-- **C#** / .NET 8
-- **Spectre.Console** for the pretty terminal output
-- **xUnit** for tests
 
 ## Contributing
 
