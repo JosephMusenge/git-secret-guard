@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+
+# Build outputs (we rebuild inside Docker)
+bin/
+obj/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+coverage/
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
